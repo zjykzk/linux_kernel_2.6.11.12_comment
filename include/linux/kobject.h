@@ -158,7 +158,7 @@ struct kset_hotplug_ops {
  * 嵌入相同类型结构的kobject集合。
  * 当创建一个kobject对象时，通常需要将它们加入到kset中。
  */
-struct 	 {
+struct kset	 {
 	/**
 	 * 所属子系统。
 	 */
